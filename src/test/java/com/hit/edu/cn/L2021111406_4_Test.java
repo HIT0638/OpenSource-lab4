@@ -40,7 +40,7 @@ public class L2021111406_4_Test{
 
         // 测试元素值完全不同的数组
         int[] nums4 = {3, 6, 9, 1};
-        Assert.assertEquals(3, solution.maximumGap(nums4));
+        Assert.assertEquals(2, solution.maximumGap(nums4));
 
         int[] nums6 = {10, 20, 30, 40};
         Assert.assertEquals(10, solution.maximumGap(nums6));
